@@ -1,0 +1,13 @@
+.header-carousel {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+  /* cursor: pointer; */
+}
+
+.header-carousel img{
+  height: 75vh;
+  object-fit: cover;
+}

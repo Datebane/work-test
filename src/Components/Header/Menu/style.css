@@ -1,0 +1,74 @@
+.header-menu {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(7, 7, 7, 0.3);
+  color: #f2f2f2;
+}
+
+.header-menu-logo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+em {
+  color: #4bcaff;
+}
+
+.header-menu-button {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-button-list {
+  list-style-type: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.header-menu-button-list li {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Droid Sans";
+  transition: 300ms ease;
+  color: #fff;
+  padding-right: 20px;
+}
+
+.header-menu-button-list li:hover {
+  color: #4bcaff;
+  /* border-top: 1px solid #4bcaff; */
+  opacity: 0.32;
+  text-decoration: underline;
+  -webkit-text-underline-position: above;
+  -ms-text-underline-position: above;
+  text-underline-position: above;
+}
+
+/* Burger-Menu */
+.burger-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+/* відображаємо меню при розмірі екрану менше 790px */
+@media (max-width: 790px) {
+  .burger-menu {
+    display: block;
+  }
+  .header-menu-button-list {
+    display: none;
+  }
+}

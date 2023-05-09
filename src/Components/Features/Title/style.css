@@ -1,0 +1,14 @@
+.features-text {
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .features-text h2 {
+    font-size: 24px;
+  }
+
+  .features-text p {
+    font-size: 16px;
+  }
+}
